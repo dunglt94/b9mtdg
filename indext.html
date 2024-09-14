@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="index.css">
+    <title>[Bài tập] Máy tính đơn giản</title>
+</head>
+<body>
+<h3>Máy tính đơn giản</h3>
+<table>
+    <tr>
+        <td colspan="4" class="input">
+            <label><input type="text" name="screen" id="screen" value=""></label>
+        </td>
+    </tr>
+    <tr>
+        <td><button onclick="getValue(this.value)" value="1">1</button></td>
+        <td><button onclick="getValue(this.value)" value="2">2</button></td>
+        <td><button onclick="getValue(this.value)" value="3">3</button></td>
+        <td><button onclick="getValue(this.value)" value="+">+</button></td>
+    </tr>
+    <tr>
+        <td><button onclick="getValue(this.value)" value="4">4</button></td>
+        <td><button onclick="getValue(this.value)" value="5">5</button></td>
+        <td><button onclick="getValue(this.value)" value="6">6</button></td>
+        <td><button onclick="getValue(this.value)" value="-">-</button></td>
+    </tr>
+    <tr>
+        <td><button onclick="getValue(this.value)" value="7">7</button></td>
+        <td><button onclick="getValue(this.value)" value="8">8</button></td>
+        <td><button onclick="getValue(this.value)" value="9">9</button></td>
+        <td><button onclick="getValue(this.value)" value="*">x</button></td>
+    </tr>
+    <tr>
+        <td><button onclick="reset()">AC</button></td>
+        <td><button onclick="getValue(this.value)" value="0">0</button></td>
+        <td><button onclick="calculate()">=</button></td>
+        <td><button onclick="getValue(this.value)" value="/">/</button></td>
+    </tr>
+</table>
+
+<script src="index.js"></script>
+</body>
+</html>
